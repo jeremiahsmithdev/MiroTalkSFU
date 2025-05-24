@@ -3,7 +3,7 @@
 if (location.href.substr(0, 5) !== 'https') location.href = 'https' + location.href.substr(4, location.href.length - 4);
 
 /**
- * MiroTalk SFU - Room component
+ * PrivSecure SFU - Room component
  *
  * @link    GitHub: https://github.com/miroslavpejic85/mirotalksfu
  * @link    Official Live demo: https://sfu.mirotalk.com
@@ -3564,7 +3564,7 @@ function leaveFeedback() {
         background: swalBackground,
         imageUrl: image.feedback,
         title: 'Leave a feedback',
-        text: 'Do you want to rate your MiroTalk experience?',
+        text: 'Do you want to rate your PrivSecure experience?',
         confirmButtonText: `Yes`,
         denyButtonText: `No`,
         showClass: { popup: 'animate__animated animate__fadeInDown' },
@@ -5413,12 +5413,12 @@ function showAbout() {
                             <a 
                                 id="email-button" 
                                 data-umami-event="Email button" 
-                                href="mailto:miroslav.pejic.85@gmail.com?subject=MiroTalk SFU info"> 
+                                href="mailto:miroslav.pejic.85@gmail.com?subject=PrivSecure SFU info"> 
                                 miroslav.pejic.85@gmail.com
                             </a>
                             <br /><br />
                             <hr />
-                            <span>&copy; 2025 MiroTalk SFU, all rights reserved</span>
+                            <span>&copy; 2025 PrivSecure SFU, all rights reserved</span>
                             <hr />
                         `
                 }
