@@ -161,6 +161,7 @@ function elementDisplay(element, display, mode = 'block') {
 // APP customize
 function customizeApp() {
     if (appTitle && BRAND.app?.title) {
+        console.log('Setting appTitle:', BRAND.app.title);
         appTitle.innerHTML = BRAND.app?.title;
     }
     if (appDescription && BRAND.app?.description) {
