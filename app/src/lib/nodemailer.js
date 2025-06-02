@@ -81,7 +81,7 @@ function sendEmail(subject, body) {
 
 function getJoinRoomSubject(data) {
     const { room_id } = data;
-    return `MiroTalk SFU - New user Join to Room ${room_id}`;
+    return `Private Video Call System SFU - New user Join to Room ${room_id}`;
 }
 function getJoinRoomBody(data) {
     const { peer_name, room_id, domain, os, browser } = data;

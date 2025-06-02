@@ -1,7 +1,7 @@
 'use strict';
 
 const brandDataKey = 'brandData';
-const brandData = window.sessionStorage.getItem(brandDataKey);
+// const brandData = window.sessionStorage.getItem(brandDataKey);
 
 const title = document.getElementById('title');
 const icon = document.getElementById('icon');

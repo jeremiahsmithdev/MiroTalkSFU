@@ -1202,7 +1202,7 @@ label {
     left: 99.6%;
     width: 57.2%;
     height: 87.88%;
-    background-image: url('../images/hero-top-illustration.svg');
+    /* background-image: url('../images/hero-top-illustration.svg'); */
 }
 .hero-figure-box {
     position: absolute;
@@ -1559,7 +1559,7 @@ label {
     top: -117px;
     width: 160px;
     height: 187px;
-    background-image: url('../images/cta-illustration.svg');
+    /* background-image: url('../images/cta-illustration.svg'); */
     background-repeat: no-repeat;
 }
 .cta-inner > * {
@@ -2122,4 +2122,21 @@ main {
 .disabled {
     pointer-events: none;
     opacity: 0.5;
+}
+.subtitle {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    color: white;
+    margin-top: -12px;
+    margin-bottom: 24px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+.hero-branding-image {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin: 0 32px 16px 0;
 }
