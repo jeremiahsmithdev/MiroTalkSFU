@@ -1,0 +1,21 @@
+
+# 2025-05-24 17:39:47.736422
++Y
+
+# 2025-05-24 17:40:20.745343
++where is the background image of the landing page set?
+
+# 2025-05-24 17:41:08.943348
++Y
+
+# 2025-05-24 17:41:43.602343
++exit
+
+# 2025-06-02 19:35:15.863677
++I can't see where MiroTalk is set in public/views/landing.html
+
+# 2025-06-02 19:36:32.361333
++I can't see where the appTitle is set as MiroTalk SFU in public/views/landing.html it should be in public/js/Brand.js but I already chanfed this as well as .env etc.
+
+# 2025-06-02 19:36:34.566542
++y

@@ -1,0 +1,3 @@
+sudo certbot --nginx -d test-vs-2.privsecure.com.au
+
+sudo nginx -s reload
